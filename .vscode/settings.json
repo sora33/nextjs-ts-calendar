@@ -1,0 +1,27 @@
+{
+    // ESlintの設定
+    "editor.defaultFormatter": "esbenp.prettier-vscode",  
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true 
+},
+    "editor.formatOnSave": false, "eslint.packageManager": "yarn",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    // Prettierの設定
+    "[graphql]": {
+        "editor.formatOnSave": true },
+        "[javascript]": { "editor.formatOnSave": true
+        }, "[javascriptreact]": {
+        "editor.formatOnSave": true },
+        "[json]": { "editor.formatOnSave": true
+        }, "[typescript]": {
+        "editor.formatOnSave": true },
+        "[typescriptreact]": { "editor.formatOnSave": true
+        },
+    // その他
+    "editor.minimap.enabled": false, // ミニマップを非表示にする
+    "editor.tabSize": 2,
+    "typescript.tsdk": "node_modules/typescript/lib", //インデントの大きさ
+    "javascript.suggest.autoImports": true,  //自動インポート
+    "typescript.suggest.autoImports": true,  //自動インポート
+    "javascript.updateImportsOnFileMove.enabled": "always", //ファイル移動時の自動インポート}
+}
